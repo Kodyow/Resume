@@ -1,0 +1,202 @@
+{
+    "main": {
+      "name":"Kody Williams",
+      "description":"Welcome to my portfolio",
+      "image":"profilepic.jpg",
+      "bio":"I'm a dedicated and motivated Software Developer with interests in data analysis, automation, web/mobile base applications, team collaboration, and project management. My go-to tools for project organization and planning is Jira and Confluence. My peers have described me as a person who is exceptional, takes charge, organizes and leads, easily collaborative, and a person who provides quality deliverables early. I can apply cutting-edge industry skills and knowledge such as Object-Oriented Design, algorithms, front-end and back-end tools in React environments, and SCRUM development practices. I'm an out-of-the-box thinker committed to punctual handover of deliverables while adapting to post-COVID work practices.",
+      "contactmessage":"If my skills and qualifications seem like a good fit, please don't hesitate to contact me! Thank you.",
+      "email": "kody.okakura.williams@gmail.com",
+      "phone": "(253)-241-9059",
+      "github":"https://github.com/Kodyow",
+      "project":"https://www.linkedin.com/in/kody-williams-5952961ba/",
+      "address":{
+        "street":"",
+        "city":"Edgewood",
+        "state":"WA",
+        "zip": "98372"
+      },
+      "website": "",
+      "resumedownload":"",
+      "social":[
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/kody-williams-5952961ba/",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"github",
+          "url":"https://github.com/Kodyow",
+          "className":"fa fa-github"
+        }
+      ]
+    },
+    "resume":{
+      "education":[
+        {
+          "school":"University of Washington Tacoma",
+          "degree":"B.S. in Computer Science & Systems",
+          "gpa":3.75,
+          "graduated":"September 2019 - June 2022",
+          "classes":"Algorithms, Bioinformatics, Data Structures, Computer Operating Systems, Computational Worlds, Database Systems, Internet of Things, Machine Learning, Machine Organization, Programming Language Concepts, Software Development & QA, Foundations of Mathematical Reasoning, Matrix Algebra, Statistics"
+        },
+        {
+          "school":"Pierce College",
+          "degree":"Prerequisites",
+          "gpa":3.64,
+          "graduated":"September 2018 - June 2019",
+          "classes":"Calculus 1, Calculus 2, Calculus 3, Communications"
+        }
+        
+      ],
+      "work":[
+        {
+          "company":"MultiCare Health Systems",
+          "title":"Data Warhouse Developer",
+          "years":"October 2020 - July 2022",
+          "description": "...",
+          "projects": [
+
+                {"title":"Clinical Trial end-to-end project",
+                "description":"Developed APIs using C# and SSIS to source data from a public website, designed a normalized data model, implemented the physical design on SQL Server database and developed a visualization in Power BI."},
+                {"title":"Folder Decompression assignment",
+                "description":"Developed decompression logic using C#. The job runs daily via extracts files in a designated directory and archives the extracted files."},
+                {"title":"Pharmacy Data Mart projects",
+                "description":"Under the guidance of a data architect, developed a Data Mart using SQL to query data from Enterprise Data Warehouse. Performed detailed validations against Epic Hyperspace. Developed Power BI to support the visualization needs. "},
+                {"title":"Analytics and data request assignments",
+                "description":"Fulfilled numerous data and analytics requests using Epic Clarity SQL database environment. Performed triaging and scoping of various clinical and financial data requests including incidents. Identified key data points to meet user requirements."},
+                {"title":"System Administration of Microsoft Azure",
+                "description":"Set up user profiles and security and manage their access to the vendor-hosted Azure environment."}
+
+          ]
+        }
+      ],
+      "skills":{
+        "technicalSkills": {
+          "additional": "Algorithms, Data Structures, Complexity Analysis, Software Development, Object-Oriented Design, Database Design, Normalization, PowerBI, Crystal Reports & Webi, DDL & DML, NodeJS, ReactJS, SSIS.",
+          "main":[
+            {
+              "name":"Java",
+              "level":"Advanced",
+              "description":"Main programming language used for academics when learning the basic programming princials"
+            },
+            {
+              "name":"Javascript",
+              "level":"Intermediate",
+              "description":"The Programming language used the most for personal projects. Also accounting the use of NodeJs runtime and frameworks like ReactJS, NextJS, and ExpressJS"
+            },
+            {
+              "name":"SQL",
+              "level":"Intermediate",
+              "description":"Very familiar with building SQL queries to retrieve data required to build Web applications and reports."
+            },
+            {
+              "name":"C#",
+              "level":"Novice",
+              "description":"Main Programming language used in my professional expreience to build SSIS packages and APIs."
+            },
+            {
+              "name":"Python",
+              "level":"Intermediate",
+              "description":"Used for basic programming and building Machine Learning models."
+            },
+            {
+              "name":"C/C++",
+              "level":"Beginner",
+              "description":"Basic understanding of the language with little programming experience and use concurrency."
+            },
+            {
+              "name":"HTML",
+              "level":"Intermediate",
+              "description":"Have spent sometime working on a few webpage projects including this webpage which uses JSX."
+            },
+            {
+              "name":"CSS",
+              "level":"Beginner",
+              "description":"Little experience creating my own CSS for Styling. This Website's styling is all custom created by me."
+            }
+          ]          
+        },
+        "professionalSkills": {
+          "additional": "",
+          "main": [
+            {
+              "name":"Demoing/Presenting",
+              "level":"Novice",
+              "description":"Have presented about 10 projects in an acedemic and professional setting."
+            },
+            {
+              "name":"Teams",
+              "level":"Novice",
+              "description":"Used teams in a professional setting as the main way to communicate and colaberate."
+            },
+            {
+              "name":"Triage",
+              "level":"Intermediate",
+              "description":"Helped triage requests making sure that requests were sent to the correct team members and rerouted to the correct team."
+            },
+            {
+              "name":"Requirment Gathering",
+              "level":"Novice",
+              "description":"Handled the gathering of project requirements and specifications directly from the requesters and end users."
+            },
+            {
+              "name":"On-call",
+              "level":"Intermediate",
+              "description":"Take on tasks and resolved issues with application while working with users."
+            }
+          ]
+        },
+        "personalSkills": {
+          "additional": "",
+          "main": [
+            {
+              "name":"Creativity",
+              "level":"Intermediate",
+              "description":"Has the ability to think of new and unique solutions and provide opinions on topics."
+            },
+            {
+              "name":"Communication",
+              "level":"Intermediate",
+              "description":"Familiar with formally communicating in a professional setting with team members and executives. Always open to listening to different views and providing opinions on decisions and solutions. Always room to improve."
+            },
+            {
+              "name":"Flexible",
+              "level":"Advanced",
+              "description":"Open to working around other peoples schedule, problems, and taking on new tasks. Familiar with adjusting deadlines and meetings to accommodate for others situations."
+            },
+            {
+              "name":"Interpersonal",
+              "level":"Novice",
+              "description":"Enjoy talking and interacting with others in casually settings forming relationships. Could improve with more exposure and opportunities"
+            },
+            {
+              "name":"Leadership",
+              "level":"Novice",
+              "description":"Limited expereince in being a leader mainly leading projects in academics. Intrested in learning to become a better leader and "
+            },
+            {
+              "name":"Self-growth",
+              "level":"Advanced",
+              "description":"Always open to taking on new task and situations. Not afraid of taking on something unfamiliar or situations that I'm uncomfortable with."
+            },
+            {
+              "name":"Teamwork",
+              "level":"Intermediate",
+              "description":"Have experience working with teams in a professional setting. Able to understanding roles and responsibilities when working on teams."
+            }
+          ]
+        }
+      }
+    },
+    "portfolio":{
+      "projects": [
+  
+        {
+          "title":"Personal Portfolio",
+          "category":"Website",
+          "image":"placeholder.png",
+          "url":"https://tonytle.com"
+        }
+      ]
+    }
+  }

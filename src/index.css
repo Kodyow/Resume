@@ -1,13 +1,202 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@media screen and (min-width: 1536px) { 
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  html {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    background: transparent;
+    display: block;
+    scroll-behavior: smooth;
+    font-size: 100%;
+    
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .letterform {
+    width:100%;
+    margin:0 0;
+    background: #FFF3E8;
+    color: #331900;
+    overflow:hidden;
+  }
+  
+  .titleformat {
+    display: table;
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 10px;
+    border-bottom: 1px solid grey;
+    
+  }
+  .hs{
+    color:#F2F2F2;
+  }
+  
+  .slim {
+    width: 45%;
+  }
+  
+  .title {
+    width:30%;
+  }
+  
+  .content {
+    width:70%;
+    padding-bottom: 20px;
+  }
+  
+  .column {
+    position: relative;
+    float: left;
+  }
+  
+  .indent {
+    padding-left: 5%;
+    margin-top: 5px;
+    line-height: 1.75;
+  }
+  
+  .no-margin {
+    margin: 0;
+  }
+  
+  .skill{
+    margin-bottom: 15px;
+    
+  }
+  
+  
+  #skills h1 {
+    margin: 0;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .midtitle {
+    margin: 20px 0;
+  }
+  
+  .level {
+    padding-top: 3px;
+  }
+  
+  .nosep{
+    border: none;
+  }
+  
+  
+  body {
+    margin:0;
+    font-family: Arial;
+    flex-wrap: nowrap
+   }
+  
+   #about {
+    background-color: #d6792c;
+    color: white;
+   }
+   header{
+    background-color: #54483F;
+    position: sticky;
+    top:0;
+    box-shadow: 0px 1px 100px #d6792c9c;
+    z-index: 1;
+    
+   }
+  
+   header nav ul{
+    display: table;
+    margin: 0 auto;
+  
+  
+   }
+  
+   header nav li {
+    float: left;
+    padding: 15px;
+    
+   }
+  
+   header nav a {
+    color: white;
+    font-weight: bolder;
+   }
+  
+   p{
+    line-height: 2;
+   }
+  
+   #resume {
+    padding: 5em 0;
+   }
+  
+   #about {
+    padding: 3em 0;
+   }
+  
+   .profilePic {
+    width: 200px;
+    height: 275px;
+    overflow: hidden;
+    border-radius: 4rem;
+    margin-top: 20px;
+   }
+  
+   .profilePic img {
+    width: 640px;
+    height: 360px;
+    margin: -30px 0 0 -250px;
+   }
+  
+   .three {
+    width:33.33%;
+    display:flex;
+   } 
+  
+   .block {
+    display: inline-block;
+    margin-left: 0.1;
+   }
+  
+   .alignR {
+    margin: 0 0 0 4em;
+
+   }
+
+   .rightdist{
+    float: right;
+    margin: 0 4em 0 0;
+   }
+  
+   .button {
+    text-decoration: strong;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFF3E8;
+    background: #54483F;
+    padding: 15px 20px; 
+    margin: auto;
+  
+   }
+  
+   .pdf {
+    margin-top: 20px;
+  
+   }
+  
+   p em {
+    font-weight: bold;
+   }
+  }
